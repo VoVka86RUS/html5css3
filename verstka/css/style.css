@@ -1,0 +1,598 @@
+ .body {
+	margin: 0;
+}
+
+.container {
+	width: 1280px;
+	margin: 0 auto;
+}
+
+.siteheader {
+	width: 100%;
+	min-height: 322px;
+	background-color: #445162;
+	padding: 50px;
+	box-sizing: border-box;
+}
+
+.siteheader:after {
+	content: "";
+	display: block;
+	width: 100%;
+	clear: both;
+}
+
+.siteheader-block1 {
+	width: 500px;
+	min-height: 150px;
+	float: left;
+	color: white;
+}
+
+.siteheader-title {
+	font-size: 60px;
+	font-family: "Arial";
+}
+
+.siteheader-img {
+	background-color: #ffffff;
+	display: block;
+	float: right;
+}
+
+.siteheader-list {
+	margin: 20px 0 0 0;
+}
+
+.siteheader-list-item {
+	list-style-type: none;
+	font-size: 20px;
+	font-family: "Arial";
+	line-height: 1.8;
+	position: relative;
+}
+
+.siteheader-list-item:before {
+	content: "";
+	background-image: url(../img/v.png);
+	display: block;
+	width: 28px;
+	min-height: 24px;
+	position: absolute;
+	background-size: cover;
+	top: 4px;
+	left: -36px;
+}
+
+.mainsection1 {
+	width: 100%;
+	min-height: 344px;
+	background-color: #ffffff;
+	padding: 50px;
+	box-sizing: border-box;
+}
+
+.mainsection1 p {
+	margin: 20px 0 0 0;
+}
+
+.mainsection1:after {
+	content: "";
+	display: block;
+	width: 100%;
+	clear: both;
+}
+
+.section-block1 {
+	width: 590px;
+	min-height: 200px;
+	float: left;
+	color: #445161;
+	font-family: "Arial";
+	line-height: 1.5;
+	font-size: 16px;
+}
+
+.section-block1-title {
+	font-size: 30px;
+}
+
+.section1-img {
+	display: block;
+	float: right;
+	background-color: #445161;
+}
+
+.mainsection2 {
+	width: 100%;
+	min-height: 417px;
+	background-color: #f5f5f5;
+	padding: 50px;
+	box-sizing: border-box;
+}
+
+.mainsection2:after {
+	content: "";
+	display: block;
+	width: 100%;
+	clear: both;
+}
+
+.section-dignity-title {
+	display: block;
+	text-align: center;
+	font-size: 30px;
+	font-family: "Arial";
+	color: #445161;
+}
+
+.section-dignity-block1 {
+	width: 587px;
+	min-height: 260px;
+	color: #333333;
+	font-family: "Arial";
+	font-size: 16px;
+	line-height: 1.5;
+	float: left;
+}
+
+.section-dignity-block2 {
+	width: 587px;
+	min-height: 260px;
+	font-family: "Arial";
+	font-size: 16px;
+	line-height: 1.5;
+	color: #333333;
+	float: right;
+}
+
+.section-dignity-block1 li {
+	padding: 0 0 0 40px;
+    margin: 20px 0 0 0;
+	list-style-type: none;
+}
+
+.section-dignity-block2 li {
+	padding: 0 0 0 40px;
+    margin: 20px 0 0 0;
+	list-style-type: none;
+}
+
+.dignity-list {
+	margin: 0;
+    padding: 0;
+}
+
+.dignity-list-item {
+	position: relative;
+}
+
+.dignity-list-item:before {
+	content: "";
+	display: block;
+	width: 32px;
+	min-height: 32px;
+	background-image: url(../img/plus.png);
+	background-size: cover;
+	position: absolute;
+	top: 4px;
+	left: 0;
+}
+
+.screen {
+	width: 100%;
+    padding: 50px;
+	min-height: 437px;
+	background-color: #ffffff;
+	box-sizing: border-box;
+}
+
+.screen-title {
+	display: block;
+	width: 100%;
+	margin: 0 0 20px 0;
+	box-sizing: border-box;
+	text-align: center;
+	font-family: "Arial";
+	font-size: 30px;
+	color: #445161;
+}
+
+.screen:after {
+	content: "";
+	display: block;
+	width: 100%;
+	clear: both;
+}
+
+.figure {
+	width: 100%;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.imagescreen {
+	float: left;
+	margin: 0 15px 0 0;
+	background-color: #445161;
+}
+
+.h3screen {
+	margin: 0 0 10px 0;
+	font-size: 22px;
+	font-family: "Arial";
+	color: #445161;
+}
+
+.pfigure {
+	font-family: "Arial";
+	font-size: 16px;
+	line-height: 20px;
+	color: #445161;
+    margin: 0;
+}
+
+.reviews {
+	width: 100%;
+	min-height: 424px;
+	padding: 50px;
+	background-color: #f5f5f5;
+	box-sizing: border-box;
+}
+
+.reviews:after {
+	content: "";
+	display: block;
+	width: 100%;
+	clear: both;
+}
+
+.reviews-title {
+	display: block;
+	width: 100%;
+	text-align: center;
+	margin: 0 0 25px 0;
+	font-size: 28px;
+	font-family: "Arial";
+}
+
+.block-reviews1 {
+	width: 48%;
+	min-height: 300px;
+	float: left;
+}
+
+.block-reviews-title1 {
+	width: 100%;
+	min-height: 140px;
+}
+
+.block-reviews-title2 {
+	width: 100%;
+	min-height: 150px;
+}
+
+.block-reviews2 {
+	width: 48%;
+	min-height: 300px;
+	float: right;
+}
+
+.block-reviews-title3 {
+	width: 100%;
+	min-height: 140px;
+}
+
+.block-reviews-title4 {
+	width: 100%;
+	min-height: 150px;
+}
+
+.imagereviews {
+	float: left;
+	margin: 0 10px 0 0;
+}
+
+.preview {
+	width: 400px;
+	padding: 10px;
+	margin: 0 0 0 100px;
+	box-sizing: border-box;
+	border-radius: 10px;
+	text-align: justify;
+	font-family: "Arial";
+	font-size: 14px;
+	font-style: italic;
+	background-color: #ebebeb;
+	position: relative;
+}
+
+.preview:before {
+	content: "";
+	display: block;
+	border: 20px solid transparent;
+	border-right: 20px solid #ebebeb;
+	position: absolute;
+	top: 15px;
+	left: -30px;
+}
+
+.spanreviews {
+	display: block;
+	margin: 5px 0 0 0;
+	color: #b0b0b0;
+	font-family: "Arial";
+	font-style: normal;
+}
+.buyitnow{
+    width: 100%;
+    min-height: 656px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    padding: 50px;
+}
+.buyitnow:after{
+    display: block;
+    clear: both;
+    content: "";
+    width: 100%;
+}
+.buyitnow-title{
+    display: block;
+    width: 100%;
+    margin: 0 0 35px 0;
+    text-align: center;
+    font-family: "Arial";
+    color: #445161;
+    font-size: 28px;
+}
+.money{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+    
+}
+.standart{
+    width: 300px;
+    margin:0 45px 0 0;
+    border: 2px solid #445161;
+    min-height: 304px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: #445162;
+}
+.standart-title{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    color: #ffff;
+    font-family: "Arial";
+    font-size: 24px;
+}
+.standart-money{
+    display: block;
+    background-color: #ffff;
+    text-align: center;
+    color: #445162;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    font-family: "Arial";
+    font-size: 40px;
+    min-height: 70px;
+ 
+}
+.standart-list{
+    color: #ffff;
+    line-height: 1.714;
+    font-size: 14px;
+    font-family: "Arial";
+}
+.standart-button{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    padding: 6px;
+    font-family: "Arial";
+    font-size: 14px;
+    color: #445162;
+    font-weight: bold;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 260px;
+    text-transform: uppercase;
+}
+.premium{
+    width: 300px;
+    min-height: 400px;
+    margin:0 45px 0 0;
+    background-color: #445162;
+    border: 2px solid #445161;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.premium-title{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    color: #ffff;
+    font-family: "Arial";
+    font-size: 24px;
+}
+.premium-money{
+    display: block;
+    background-color: #ffff;
+    text-align: center;
+    color: #445162;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    font-family: "Arial";
+    font-size: 40px;
+    min-height: 70px;
+}
+.premium-list{
+    color: #ffff;
+    line-height: 1.714;
+    font-size: 14px;
+    font-family: "Arial";
+}
+.premium-button{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    padding: 6px;
+    font-family: "Arial";
+    font-size: 14px;
+    color: #445162;
+    font-weight: bold;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 260px;
+    text-transform: uppercase;
+}
+.lux{
+    width: 300px;
+    min-height: 500px;
+    background-color: #445162;
+    border: 2px solid #445161;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.lux-title{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    color: #ffff;
+    font-family: "Arial";
+    font-size: 24px;
+}
+.lux-money{
+    display: block;
+    background-color: #ffff;
+    text-align: center;
+    color: #445162;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    font-family: "Arial";
+    font-size: 40px;
+    min-height: 70px;
+}
+.lux-list{
+    color: #ffff;
+    line-height: 1.735;
+    font-size: 14px;
+    font-family: "Arial";
+}
+.lux-button{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    padding: 5px;
+    font-family: "Arial";
+    font-size: 14px;
+    color: #445162;
+    font-weight: bold;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 260px;
+    text-transform: uppercase;
+}
+.contacts{
+    width: 100%;
+    min-height: 510px;
+    box-sizing: border-box;
+    padding: 50px;
+    background-color: #445162;
+}
+.contacts:after{
+    content: "";
+    display: block;
+    clear: both;
+    width: 100%;
+}
+.contacts-title{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-family: "Arial";
+    font-size: 24px;
+    color: #ffff;
+}
+.contacts-element{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 30px 0 0 0;
+    box-sizing: border-box;
+}
+.contacts-form{
+    width: 500px;
+    min-height: 355px;
+    box-sizing: border-box;
+}
+input{
+    display: block;
+    width: 475px;;
+    padding: 8px;
+    text-transform: capitalize;
+    border-radius: 10px;
+    margin: 0 0 20px 0;
+}
+.area-contacts{
+    margin: 0 0 15px 0;
+    border-radius: 10px;
+}
+.form-button{
+    display: block;
+    width: 140px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 auto;
+    
+}
+.contacts-contact{
+    width: 260px;
+    min-height: 240px;
+    margin: 0 0 40px 40px;
+}
+.contact-list{
+    list-style-type: none;
+    font-family: "Arial";
+    font-size: 14px;
+    color: #ffff;
+    line-height: 33px;
+    position: relative;
+}
+.contact-list:before{
+    content: "";
+    display: block;
+    background-image: url(../img/contact.jpg);
+    position: absolute;
+    width: 15px;
+    min-height: 120px;
+    background-size: cover;
+    left: 22px;
+    top:5px;
+}
+.imgcontact{
+    display: block;
+    margin: 0 0 0 10px;
+}
+.bottom{
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-family: "Arial";
+    font-size: 13px;
+    color: #9a9fa6;
+    background-color: #f5f5f5;
+}
