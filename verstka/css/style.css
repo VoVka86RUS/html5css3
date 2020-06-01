@@ -183,7 +183,11 @@
 	width: 100%;
     padding: 50px;
 	min-height: 437px;
-	background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #ffffff;
 	box-sizing: border-box;
 }
 
@@ -206,17 +210,24 @@
 }
 
 .figure {
-	width: 100%;
+	width: 43%;
 	box-sizing: border-box;
 	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
+    margin: 0 0 30px 0;
+	justify-content: space-between;
+	align-items: flex-start;
 }
 
+.figcaption{
+    width: 330px;;
+    box-sizing: border-box;
+    
+}
 .imagescreen {
-	float: left;
-	margin: 0 15px 0 0;
+    display: block;
+    width: 200px;
+    min-height: 150px;
+	margin: 0 20px 0 0;
 	background-color: #445161;
 }
 
@@ -230,9 +241,10 @@
 .pfigure {
 	font-family: "Arial";
 	font-size: 16px;
-	line-height: 20px;
+	line-height: 19px;
 	color: #445161;
-    margin: 0;
+    width: 330px;
+    margin: 0 0 0 0;
 }
 
 .reviews {
@@ -407,6 +419,9 @@
     width: 260px;
     text-transform: uppercase;
 }
+ .standart-button:active{
+    background-color: #445162;
+}
 .premium{
     width: 300px;
     min-height: 400px;
@@ -456,6 +471,9 @@
     width: 260px;
     text-transform: uppercase;
 }
+.premium-button:active{
+    background-color: #445162;
+}
 .lux{
     width: 300px;
     min-height: 500px;
@@ -503,6 +521,9 @@
     border-radius: 10px;
     width: 260px;
     text-transform: uppercase;
+}
+.lux-button:active{
+    background-color: #445162;
 }
 .contacts{
     width: 100%;
@@ -554,9 +575,16 @@ input{
     display: block;
     width: 140px;
     padding: 10px;
+    color: #445162;
+    font-family: "Arial";
+    font-weight: bold;
+    font-size: 14px;
     border-radius: 10px;
     margin: 0 auto;
     
+}
+.form-button:hover{
+    color: green;
 }
 .contacts-contact{
     width: 260px;
